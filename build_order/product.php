@@ -533,12 +533,14 @@ $ShipWeaponsLevel3		= new Upgrade("Ship Weapons Level 3"		, Terran, array()		, a
 $InfantryArmorLevel1	= new Upgrade("Infantry Armor Level 1"		, Terran, array()		, array($EngineeringBay)	, 100, 100, 160);
 $InfantryArmorLevel2	= new Upgrade("Infantry Armor Level 2"		, Terran, array($Armory), array($EngineeringBay)	, 175, 175, 190);
 $InfantryArmorLevel3	= new Upgrade("Infantry Armor Level 3"		, Terran, array($Armory), array($EngineeringBay)	, 250, 250, 220);
+
 $VehiclePlatingLevel1	= new Upgrade("Vehicle Plating Level 1"		, Terran, array()		, array($Armory)			, 100, 100, 160);
 $VehiclePlatingLevel2	= new Upgrade("Vehicle Plating Level 2"		, Terran, array()		, array($Armory)			, 175, 175, 190);
 $VehiclePlatingLevel3	= new Upgrade("Vehicle Plating Level 3"		, Terran, array()		, array($Armory)			, 250, 250, 220);
 $ShipPlatingLevel1		= new Upgrade("Ship Plating Level 1"		, Terran, array()		, array($Armory)			, 100, 100, 160);
 $ShipPlatingLevel2		= new Upgrade("Ship Plating Level 2"		, Terran, array()		, array($Armory)			, 175, 175, 190);
 $ShipPlatingLevel3		= new Upgrade("Ship Plating Level 3"		, Terran, array()		, array($Armory)			, 250, 250, 220);
+
 $NitroPacks				= new Upgrade("Nitro Packs"					, Terran, array()		, array($TechLabOnBarracks)	,  50,  50, 100);
 $HiSecAutoTracking		= new Upgrade("Hi-Sec Auto Tracking"		, Terran, array()		, array($EngineeringBay)	, 100, 100,  80);
 $PersonalCloaking		= new Upgrade("Personal Cloaking"			, Terran, array()		, array($GhostAcademy)		, 150, 150, 120);
@@ -716,4 +718,59 @@ $GroundArmorLevel3->gasCost = 200;
 $ShieldsLevel1->gasCost = 150;
 $ShieldsLevel2->gasCost = 225;
 $ShieldsLevel3->gasCost = 300;
+
+// Patch 1.4.3
+// Phoenix upgrade
+// Snipe nerf
+// MULE / gold mineral nerf
+// Observer build time buff
+// Overlord movement speed buff
+// Queen attack range buff
+//
+// Patch 1.5.3
+// Seeker missile upgrade requirement removed
+// Infested swarm egg health nerf
+// fungal growth range nerf
+//
+// Patch 1.5.4
+// Infested Terrans upgrade nerfs
+//
+// HotS 
+// Widow mine, Hellbat
+// Tempest, Mothership Core, Oracle
+// Viper, Swarm Host
+//
+// http://day9.tv/d/ntucker/heart-of-the-swarm-complete-list-of-changes/
+//
+// Dark shrine cost reduced
+// Vortex removed
+// Phoenix range buff
+// Hallucination upgrade requirement removed
+// Blink research time nerf
+// Void ray changes, supply cost nerf
+//
+// Armory vehicle/ship armor combined
+// Yamato energy cost buff
+// Medivac afterburners
+// Seeker missile buffs
+// Reaper changes
+// Siege mode buff
+// Thor changes
+//
+// Creep tumor changes
+// Burrow moved to hatch tech
+// Hydra changes
+// Infestor changes
+// Muta changes
+// Spore no longer requires evo
+// Ultra damage change
+//
+// Patch 2.0.8 
+// Spore bio buff
+//
+// Patch 2.0.9
+// Warp prism buff
+// Hellbat nerf, blue flame upgrade
+// Banshee buff
+//
 ?>
